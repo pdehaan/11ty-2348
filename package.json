@@ -1,30 +1,28 @@
 {
   "name": "eleventy-base-blog",
-  "version": "6.0.0",
   "description": "A starter repository for a blog web site using the Eleventy static site generator.",
-  "scripts": {
-    "build": "npx @11ty/eleventy",
-    "bench": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
-    "watch": "npx @11ty/eleventy --watch",
-    "serve": "npx @11ty/eleventy --serve",
-    "start": "npx @11ty/eleventy --serve",
-    "debug": "DEBUG=* npx @11ty/eleventy"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/11ty/eleventy-base-blog.git"
-  },
+  "version": "6.0.0",
   "author": "Zach Leatherman <zachleatherman@gmail.com> (https://zachleat.com/)",
-  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/11ty/eleventy-base-blog/issues"
-  },
-  "homepage": "https://github.com/11ty/eleventy-base-blog#readme",
-  "dependencies": {
+    "url": "https://github.com/pdehaan/11ty-2348/issues"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1"
   },
+  "homepage": "https://github.com/pdehaan/11ty-2348#readme",
+  "keywords": [],
+  "license": "MIT",
   "main": ".eleventy.js",
-  "keywords": []
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/11ty-2348.git"
+  },
+  "scripts": {
+    "bench": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
+    "build": "npx @11ty/eleventy",
+    "debug": "DEBUG=* npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve",
+    "start": "npx @11ty/eleventy --serve",
+    "watch": "npx @11ty/eleventy --watch"
+  }
 }
